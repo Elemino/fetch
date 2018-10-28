@@ -2,5 +2,5 @@
     
 ## Goal:
     
-TO practice fetch in the browser.
+Practice fetch in the browser.
 
