@@ -1,1 +1,1 @@
-# fetch api polyfill 
+# Fetch Api and ES6 Practice in the browser
