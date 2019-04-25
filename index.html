@@ -46,7 +46,7 @@
     }
 
     function getUsers(){
-      fetch('users.json')
+      fetch('contacts.json')
       .then((res) => res.json())
       .then((data) => {
         let output = '<h2 class="mb-4">Users</h2>';
@@ -64,7 +64,7 @@
     }
 
     function getPosts(){
-      fetch('https://api.nasa.gov/neo/rest/v1/feed?start_date=START_DATE&end_date=END_DATE&api_key=API_KEY')
+      fetch('https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY')
       .then((res) => res.json())
       .then((data) => {
         let output = '<h2 class="mb-4">Posts</h2>';
